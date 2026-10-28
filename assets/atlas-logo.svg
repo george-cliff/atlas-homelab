@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="atlas-flat-title atlas-flat-desc">
+  <title id="atlas-flat-title">Atlas — expanded Seven Sisters celestial pattern</title>
+  <desc id="atlas-flat-desc">Atlas supports a celestial globe, across which seven four-point stars are arranged in a spacious, stylised Pleiades pattern. Their relative structure is retained but the separations are exaggerated for the emblem.</desc>
+  <defs>
+    <clipPath id="atlas-inner-sphere-clip">
+      <circle cx="128" cy="125" r="89.6"/>
+    </clipPath>
+  </defs>
+  <g id="atlas-logo-artwork">
+    <g id="atlas-rear-malachite-equator">
+      <path d="M36 125Q128 92 220 125" fill="none" stroke="#89C2A4" stroke-width="2.7" stroke-opacity="0.61" stroke-linecap="round" stroke-linejoin="round" id="atlas-rear-equator-arc"/>
+    </g>
+    <g id="atlas-under-globe-support" clip-path="url(#atlas-inner-sphere-clip)" opacity="0.71">
+      <g id="atlas-support-arms">
+        <path d="M125 132C113 123 104 115 97 111C79 101 61 95 45 85" fill="none" stroke="#D99B88" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M131 132C143 123 152 115 159 111C177 101 195 95 211 85" fill="none" stroke="#D99B88" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g id="atlas-support-column">
+        <rect x="117" y="114" width="22" height="83" fill="#C46D57"/>
+        <rect x="96" y="95" width="64" height="11" rx="5.5" fill="#D99B88"/>
+        <rect x="108" y="106" width="40" height="9" rx="4.5" fill="#C46D57"/>
+        <rect x="108" y="196" width="40" height="9" rx="4.5" fill="#C46D57"/>
+        <rect x="96" y="205" width="64" height="9" rx="4.5" fill="#D99B88"/>
+      </g>
+      <g id="atlas-support-joints">
+        <circle cx="45" cy="85" r="2.8" fill="#C46D57"/>
+        <circle cx="45" cy="85" r="1.0" fill="#EAC1B3" opacity=".7"/>
+        <circle cx="211" cy="85" r="2.8" fill="#C46D57"/>
+        <circle cx="211" cy="85" r="1.0" fill="#EAC1B3" opacity=".7"/>
+      </g>
+    </g>
+    <g id="atlas-foreground-globe-grid">
+      <path d="M128 33C92 68 92 180 128 217" fill="none" stroke="#5394C1" stroke-width="2.1" stroke-opacity="0.45" stroke-linecap="round" stroke-linejoin="round" id="atlas-meridian-west"/>
+      <path d="M128 33C164 68 164 180 128 217" fill="none" stroke="#5394C1" stroke-width="2.1" stroke-opacity="0.45" stroke-linecap="round" stroke-linejoin="round" id="atlas-meridian-east"/>
+      <path d="M63 60Q128 86 193 60" fill="none" stroke="#B5D6EA" stroke-width="1.8" stroke-opacity="0.27" stroke-linecap="round" stroke-linejoin="round" id="atlas-upper-latitude"/>
+      <path d="M36 125Q128 161 220 125" fill="none" stroke="#61A78A" stroke-width="2.2" stroke-opacity="0.51" stroke-linecap="round" stroke-linejoin="round" id="atlas-foreground-equator"/>
+      <path d="M60 190Q128 160 196 190" fill="none" stroke="#B6DCC7" stroke-width="1.45" stroke-opacity="0.25" stroke-linecap="round" stroke-linejoin="round" id="atlas-lower-latitude"/>
+    </g>
+    <g id="atlas-expanded-pleiades" aria-label="Seven Sisters in a stylised expanded Pleiades pattern">
+      <path id="pleiad-alcyone" d="M55.0 132.2 Q56.1 137.894 60.0 139.5 Q56.1 141.106 55.0 146.8 Q53.9 141.106 50.0 139.5 Q53.9 137.894 55.0 132.2Z" fill="#B5D6EA" opacity="0.98"/>
+      <path id="pleiad-merope" d="M104.0 154.3 Q104.968 159.136 108.4 160.5 Q104.968 161.864 104.0 166.7 Q103.032 161.864 99.6 160.5 Q103.032 159.136 104.0 154.3Z" fill="#8ABBD8" opacity="0.94"/>
+      <path id="pleiad-electra" d="M222.5 145.5 Q223.358 149.79 226.4 151.0 Q223.358 152.21 222.5 156.5 Q221.642 152.21 218.6 151.0 Q221.642 149.79 222.5 145.5Z" fill="#B5D6EA" opacity="0.9"/>
+      <path id="pleiad-celaeno" d="M189.0 75.9 Q189.638 79.098 191.9 80.0 Q189.638 80.902 189.0 84.1 Q188.362 80.902 186.1 80.0 Q188.362 79.098 189.0 75.9Z" fill="#B6DCC7" opacity="0.86"/>
+      <path id="pleiad-taygeta" d="M173.0 52.7 Q173.748 56.444 176.4 57.5 Q173.748 58.556 173.0 62.3 Q172.252 58.556 169.6 57.5 Q172.252 56.444 173.0 52.7Z" fill="#8ABBD8" opacity="0.91"/>
+      <path id="pleiad-maia" d="M134.0 76.6 Q134.924 81.202 138.2 82.5 Q134.924 83.798 134.0 88.4 Q133.076 83.798 129.8 82.5 Q133.076 81.202 134.0 76.6Z" fill="#D9EDE0" opacity="0.91"/>
+      <path id="pleiad-asterope" d="M141.0 11.3 Q141.616 14.186 143.8 15.0 Q141.616 15.814 141.0 18.7 Q140.384 15.814 138.2 15.0 Q140.384 14.186 141.0 11.3Z" fill="#89C2A4" opacity="0.82"/>
+    </g>
+    <circle cx="128" cy="125" r="92" fill="none" stroke="#5394C1" stroke-width="4.4" stroke-opacity="0.86" id="atlas-globe-outline"/>
+  </g>
+</svg>
