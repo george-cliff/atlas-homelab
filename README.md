@@ -86,7 +86,7 @@ These pages explain how Atlas is organised and maintained, rather than providing
 
 **Current Status:** Operational and in regular use for file and photo storage, media streaming, backups and development.
 
-**Currently Working On:** Cross-machine Git workflow validation, rewriting the public documentation and further backup recovery testing.
+**Current Focus:** Cross-machine Git workflow validation, rewriting the public documentation and further backup recovery testing.
 
 - [x] Set up Debian 13, Docker Compose services and private Tailscale access.
 - [x] Configure SSD application storage and mergerfs bulk storage.
